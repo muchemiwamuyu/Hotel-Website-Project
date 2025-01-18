@@ -21,11 +21,11 @@ This is a responsive Hotel website Design, where guests can discover and book a 
 
 White (#FFFFFF)
 
-Charcoal Gray (#333333)
+Light red (#E5383B)
 
-Light Gray (#E5E5E5)
+Dark Gray (#161A1D)
 
-Black (#000000)
+Dark red (#660708)
 
 Brushed Gold (#D4AF37)
 
@@ -58,6 +58,11 @@ Brushed Gold (#D4AF37)
 
 ## Getting started
 *The project will replicate that of a hotel where the user, will be able to see where the hotel is located, when the hotel started, how the hotel operates, and also see if the hotel's amenities align with the client's needs.*
+
+## Design Mockups.
+![Hotel landing page design](assets/1.png)
+![Hotel room landing page design](assets/2.png)
+![Hotel amenities page design](assets/3.png)
 
 ## Contributing
 In the end of the project, if the Hotel-Website might need some more modifications or redesign by a developer, Clone the repository using the following link.

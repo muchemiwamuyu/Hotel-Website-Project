@@ -11,6 +11,7 @@
     --Button-color: #BA181B;
     --Transparent-decor: #662c06;
     --text-container: #B1A7A6;
+    --gradient: linear-gradient(to right, #e5383b #ba181b);
 }
 
 /* Fonts */
@@ -24,7 +25,7 @@
 }
 
 .landing-page {
-    height: 768px;
+    height: 650px;
     position: relative;
     background-color: slategray;
 }
@@ -78,6 +79,25 @@ nav ul li:nth-child(4) {
     padding-right: 20px;
 }
 
+.image {
+
+    height: 520px;
+    background-image: url("./assets/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+}
+
+.transparent {
+    width: 1500px;
+    height: 330px;
+    background-color: var(--Transparent-decor);
+    position: absolute;
+    margin-top: -330px;
+    opacity: 0.5;
+}
+
 .line {
     width: 3px;
     height: 60px;
@@ -115,9 +135,12 @@ nav ul li:nth-child(4) {
     height: 400px;
     background-color: var(--text-container);
     margin-left: 500px;
-    margin-top: -32px;
+    margin-top: -455px;
     display: flex;
     border-radius: 15px;
+    position: absolute;
+    border: 2px solid red;
+    opacity: 0.8;
 }
 
 .text-container h1 {

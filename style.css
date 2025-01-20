@@ -90,7 +90,7 @@ nav ul li:nth-child(4) {
 }
 
 .transparent {
-    width: 1500px;
+    width: 1300px;
     height: 330px;
     background-color: var(--Transparent-decor);
     position: absolute;
@@ -192,3 +192,57 @@ nav ul li:nth-child(4) {
     color: white;
     font-family: Playfair Display;
 }
+
+.bodyy {
+    height: 700px;
+    background-color: var(--text-container);
+    position: relative;
+}
+
+.bodyy h2 {
+    text-align: center;
+}
+
+.shade {
+    width: 1200px;
+    height: 630px;
+    background-color: var(--background-gradient);
+    margin-left: 145px;
+    display: flex;
+}
+
+.ist-img {
+    width: 350px;
+    height: 600px;
+    background-image: url("./assets/pint1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.tiny-box1 {
+    width: 200px;
+    height: 180px;
+    background-color: var(--Header-color);
+}
+
+.nd-img {
+    width: 350px;
+    height: 600px;
+    background-image: url("./assets/nice.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.tinybox2 {
+    width: 200px;
+    height: 180px;
+    background-color: blue;
+}
+
+

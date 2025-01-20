@@ -209,6 +209,7 @@ nav ul li:nth-child(4) {
     background-color: var(--background-gradient);
     margin-left: 145px;
     display: flex;
+    position: relative;
 }
 
 .ist-img {
@@ -220,12 +221,36 @@ nav ul li:nth-child(4) {
     background-repeat: no-repeat;
     margin-top: 20px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 .tiny-box1 {
-    width: 200px;
+    width: 250px;
     height: 180px;
-    background-color: var(--Header-color);
+    background-color: var(--text-container);
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.tiny-box1 h3, .tiny-box1 p {
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.tiny-box1 button, .tinybox2 button {
+    width: 120px;
+    height: 35px;
+    background-color: var(--Button-color);
+    border: none;
+    margin-top: 45px;
+    margin-left: 15px;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1em;
+    border-radius: 10px;
 }
 
 .nd-img {
@@ -236,13 +261,27 @@ nav ul li:nth-child(4) {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 20px;
-    margin-left: 10px;
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
 }
 
 .tinybox2 {
-    width: 200px;
+    width: 250px;
     height: 180px;
-    background-color: blue;
+    background-color: var(--text-container);
+    position: absolute;
+    bottom: 10px;
+    right: 380px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
+
+.tinybox2 h3, .tinybox2 p {
+    padding: 2px;
+    margin-left: 10px;
+}
+
+
 
 

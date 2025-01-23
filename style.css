@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* Colors */
 
 :root {
@@ -12,6 +13,8 @@
     --Transparent-decor: #662c06;
     --text-container: #B1A7A6;
     --gradient: linear-gradient(to right, #e5383b #ba181b);
+    --contact-section: #d3d3d3;
+    --footer-color: #161a1d;
 }
 
 /* Fonts */
@@ -281,6 +284,328 @@ nav ul li:nth-child(4) {
     padding: 2px;
     margin-left: 10px;
 }
+
+.amenities {
+    height: 700px;
+    background-color: var(--Header-color);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.amenities h2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin: 50%;
+    bottom: -120px;
+}
+
+.div1 {
+    width: 450px;
+    height: 630px;
+    background-image: url(./swim.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+.div2 {
+    width: 450px;
+    height: 520px;
+    background-image: url(./assets/food.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+.div3 {
+    width: 450px;
+    height: 630px;
+    background-image: url(./assets/gym.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+/* Contact section */
+
+.contact {
+    height: 700px;
+    position: relative;
+    background-color: var(--contact-section);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form {
+    width: auto;
+    height: 230px;
+    /* background-color: green; */
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 60px;
+}
+
+#text {
+    width: 300px;
+    height: 100px;
+}
+
+label {
+    font-size: 22px;
+}
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+.div-container {
+    width: auto;
+    height: 280px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.div4 {
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid blue; */
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.div4 address, .div5 address, .div6 address {
+    padding: 60px;
+}
+
+.div4 address p a{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fas.fa-location-dot {
+    font-size: 80px;
+    margin: auto;
+    color: crimson;
+}
+.fas.fa-phone {
+    font-size: 80px;
+    color: crimson;
+}
+.fas.fa-envelope {
+    font-size: 80px;
+    color: crimson;
+}
+
+
+
+.div5 {
+    width: 400px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    padding: 20px 15px;
+
+}
+
+.div5 address p a{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.div6 {
+    width: 400px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    padding: 20px 15px;
+}
+.div6 address p a{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact button {
+    width: 250px;
+    height: 45px;
+    background-color: var(--Button-color);
+    margin-left: 40%;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.6em;
+    border: none;
+    font-family: Playfair Display;
+    position: absolute;
+    margin-top: -2%;
+}
+
+/* footer section */
+
+footer {
+    height: 700px;
+    background-color: var(--footer-color);
+    display: flex;
+    align-items: center;
+
+}
+.footer-container {
+    max-width: 1300px;
+    height: 680px;
+    background-color: rgba(211, 211, 211, 0.5);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 15px; 
+}
+
+.colorlib {
+    width: 500px;
+    height: 300px;
+    /* background-color: red; */
+    /* padding: 10px 5px; */
+    position: relative;
+    margin-top: -15%;
+    padding: 10px;
+}
+
+.colorlib ol li {
+    padding-bottom: 15px;
+}
+.colorlib p {
+    padding-top: 18px;
+}
+
+.colorlib h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.social-icons {
+    max-width: 180px;
+    height: 60px;
+    /* background-color: #333; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.Latest-news {
+    width: 500px;
+    height: 300px;
+    /* background-color: blue; */
+    /* padding: 10px 5px; */
+    margin-top: -15%;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.Latest-news ol li {
+    padding-bottom: 15px;
+}
+
+.Latest-news h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+.Latest-news p {
+    padding-top: 10px;
+}
+.quick-links {
+    width: 500px;
+    height: 300px;
+    /* background-color: black; */
+    /* padding: 10px 5px; */
+    margin-top: -15%;
+    text-align: center;
+}
+
+.quick-links button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.special-offers {
+    width: 200px;
+    height: 150px;
+    background-color: #e5383b;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: none;
+}
+
+.special-offers h3 {
+    font-size: xx-large;
+}
+
+.special-offers hr {
+    width: 25px;
+    margin: auto;
+    border-color: black;
+    background-color: black;
+}
+
+.special-offers button {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #660708;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.quick-links h2 {
+    color: black;
+}
+
+.copyright {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
 
 
 
